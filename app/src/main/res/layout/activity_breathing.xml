@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 這裡是你之前提供的佈局代碼 -->
+        <!-- 背景圖片 -->
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rainy_background" />
+
+        <!-- 太陽圖片 -->
+        <ImageView
+            android:id="@+id/sun"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/badsun" />
+
+        <!-- 左側雲朵 -->
+
+        <!-- 右側雲朵 -->
+
+        <ImageView
+            android:id="@+id/cloud_left"
+            android:layout_width="700dp"
+            android:layout_height="700dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-180dp"
+            android:src="@drawable/cloudleft" />
+
+        <!-- 屏氣/吸氣/吐氣提示 -->
+
+        <ImageView
+            android:id="@+id/cloud_right"
+            android:layout_width="700dp"
+            android:layout_height="700dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-180dp"
+            android:rotationY="180"
+            android:src="@drawable/cloudleft" />
+
+        <TextView
+            android:id="@+id/breathing_phase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:text="吸氣"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <!-- 倒數計時 -->
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/breathing_phase"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="4"
+            android:textColor="@android:color/white"
+            android:textSize="48sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

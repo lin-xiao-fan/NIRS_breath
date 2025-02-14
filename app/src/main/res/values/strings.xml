@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Brelax</string>
+    <string name="login">Login</string>
+
+    <string name="connect_name">Connect</string>
+    <string name="viewer_name">Viewer</string>
+    <string name="history_name">History</string>
+    <string name="setting_name">Setting</string>
+
+    <string name="left_foot">左腳</string>
+    <string name="right_foot">右腳</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+
+    <!--  Connect UI  -->
+    <string name="click_to_add_device">點擊增加裝置</string>
+    <string name="disconnect">中斷連線</string>
+    <string name="start_sampling">開始採樣</string>
+    <string name="finish_sampling">結束採樣</string>
+    <string name="isSampling">資料收集中</string>
+    <string name="record_saving">數據儲存中…</string>
+
+    <!--  Scan UI  -->
+    <string name="device_list">裝置列表</string>
+    <string name="start_scan">開始掃描</string>
+    <string name="scanning">掃描中…</string>
+    <string name="connecting">連接中…</string>
+    <string name="connect_success">裝置連接成功</string>
+    <string name="connect_failed">裝置連接失敗</string>
+
+    <!--  History UI  -->
+    <string name="file_list">檔案列表</string>
+    <string name="check_delete_hint">是否要刪除檔案</string>
+    <string name="delete_success">檔案刪除成功</string>
+    <string name="delete_failed">檔案刪除失敗</string>
+    <string name="check_share_hint">是否要上傳檔案</string>
+</resources>
